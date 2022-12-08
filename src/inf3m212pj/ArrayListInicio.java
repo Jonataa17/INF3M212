@@ -68,6 +68,10 @@ public class ArrayListInicio {
         Collections.reverse(nomes);
         System.out.println("Ordem Inversa: "+nomes.toString());
 
+        nomes.remove("doug");
+        Collections.sort(nomes);
+        System.out.println("Nomes sem o doug: "+nomes.toString());
+
     }
 
 }
